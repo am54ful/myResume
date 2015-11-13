@@ -1,0 +1,34 @@
+<ion-view view-title="Contact Me">
+<ion-content ng-controller="mailCtrl">
+<div class="list card">
+	<div class="item item-icon-left ion-paper-airplane">
+		
+		Send me an email
+		
+	</div>
+	<div class="item item-body">
+		
+		<!-- <form ng-submit="expression">
+			
+
+		</form> -->
+		<div class="list">
+			
+			<label class="item item-input item-stacked-label">
+				<span class="input-label">Subject</span>
+				<input type="text" placeholder="Feedback for this app." ng-model="mail.subject" >
+			</label>
+			<label class="item item-input item-stacked-label">
+				<span class="input-label">Comment</span>
+				<textarea placeholder="Comments" ng-model="mail.comment" ></textarea>
+			</label>
+		</div>
+		<button class="button" ng-click="sendEmail()">
+		Send email
+		</button>
+	</div>
+	
+</div>
+</div>
+</ion-content>
+</ion-view>

@@ -1,0 +1,120 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('fonts/RobotoRegular.eot');
+    src: url('fonts/RobotoRegular.eot') format('embedded-opentype'),
+         url('fonts/RobotoRegular.woff2') format('woff2'),
+         url('fonts/RobotoRegular.woff') format('woff'),
+         url('fonts/RobotoRegular.ttf') format('truetype'),
+         url('fonts/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+body {
+  font-family: 'RobotoRegular';
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body strong {
+font-family: 'RobotoRegular';
+}
+
+.p-home{
+text-align: justify;
+}
+
+.place-in-center, .button-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.full-height{
+    height: 100%;
+}
+
+
+.embed-responsive {
+      position: relative;
+      display: block;
+      height: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .embed-responsive.embed-responsive-16by9 {
+      padding-bottom: 56.25%;
+    }
+
+    .embed-responsive-item {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+body .tab-header {
+        padding-top: 20px;
+        color: white;
+        text-align: center;
+      background: #03A9F5;
+      background-size: 100%;
+      background-position: center center; 
+    padding-bottom: 
+}
+
+.circular {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    border: solid;
+	background: url(../img/aku%20color.jpg) no-repeat;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}   
+
+ body .bar.bar-positive  {
+    background: #03A9F5;
+    border-color: #03A9F5;
+}
+
+.tab-nav{
+   background: #03A9F5 !important;
+    border-color: #03A9F5 !important;
+    
+}
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 11px;
+font-style: italic;
+margin: 0.25em 0;
+padding: 0.25em 20px;
+line-height: 1.45;
+border-left: 5px solid #03A9F5;
+position: relative;
+color: #383838;
+}
+
+blockquote:before {
+display: block;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+font-size: 10px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+
+}

@@ -1,0 +1,19 @@
+
+<ion-view view-title="My Youtube Channel">
+  <ion-content overflow-scroll="true">
+    <div class="list card" collection-repeat="video in videos">
+      <div class="item item-text-wrap">
+        <h2>{{video.snippet.title}}</h2>
+        <p>{{video.snippet.publishedAt | limitTo: 10}}</p>
+      </div>
+      <div class="item item-image">
+        <div class="embed-responsive embed-responsive-16by9">
+        <youtube-video class="embed-responsive-item" video-id="video.id.videoId" player-vars="playerVars"></youtube-video>
+        </div>
+      </div>
+      <div class="item item-body">
+      <p>{{video.snippet.description}}</p>
+  </div>
+    </div>
+  </ion-content>
+</ion-view>

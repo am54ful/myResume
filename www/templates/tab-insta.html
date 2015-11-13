@@ -1,0 +1,23 @@
+ <ion-view view-title="My Instagram">
+      <ion-content ng-controller="instaCtrl">
+        <div class="list card" data-ng-repeat="image in imageList" >
+
+          <div class="item item-avatar">
+            <img ng-src="{{image.caption.from.profile_picture}}">
+            <h2>{{image.caption.from.username}}</h2>
+            <p>{{image.caption.from.full_name}}</p>
+          </div>
+
+          <div class="item item-image">
+            <img data-ng-src="{{image.images.standard_resolution.url}}">
+          </div>
+
+          <a class="item item-icon-left assertive" data-ng-href="{{image.link}}">
+            <i class="icon ion-android-send"></i>
+            Visit Original Post
+          </a>
+
+        </div>
+      </ion-content>
+    </ion-content>
+</ion-view>
